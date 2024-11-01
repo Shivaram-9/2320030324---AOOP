@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    display: inline-block;
+    margin: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
